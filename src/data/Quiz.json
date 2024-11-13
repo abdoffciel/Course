@@ -1,0 +1,124 @@
+{
+"quizzes": [
+            {
+              "id": 1,
+              "title": "Quiz 1: Introduction to Programming",
+              "description": "This quiz tests your knowledge on the basics of programming.",
+              "dueDate": "2024-12-01",
+              "status": "upcoming",
+              "score": null,
+              "questions": [
+                {
+                  "text": "What is the correct syntax for a function in Python?",
+                  "options": [
+                    "def function():",
+                    "function() = def;",
+                    "def: function()",
+                    "function def():"
+                  ],
+                  "answer": "def function():"
+                },
+                {
+                  "text": "Which of these is a valid variable name?",
+                  "options": [
+                    "2variable",
+                    "_variable",
+                    "$variable$",
+                    "var@able"
+                  ],
+                  "answer": "_variable"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "title": "Quiz 2: Data Structures and Algorithms",
+              "description": "This quiz tests your knowledge on data structures and algorithms.",
+              "dueDate": "2024-12-05",
+              "status": "upcoming",
+              "score": null,
+              "questions": [
+                {
+                  "text": "Which data structure uses LIFO (Last In First Out) order?",
+                  "options": [
+                    "Queue",
+                    "Stack",
+                    "Linked List",
+                    "Array"
+                  ],
+                  "answer": "Stack"
+                },
+                {
+                  "text": "What is the time complexity of binary search?",
+                  "options": [
+                    "O(n)",
+                    "O(log n)",
+                    "O(n log n)",
+                    "O(1)"
+                  ],
+                  "answer": "O(log n)"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Quiz 3: Web Development",
+              "description": "This quiz tests your knowledge of HTML, CSS, and JavaScript.",
+              "dueDate": "2024-12-10",
+              "status": "upcoming",
+              "score": null,
+              "questions": [
+                {
+                  "text": "Which HTML tag is used to display images?",
+                  "options": [
+                    "<img>",
+                    "<image>",
+                    "<picture>",
+                    "<src>"
+                  ],
+                  "answer": "<img>"
+                },
+                {
+                  "text": "What does CSS stand for?",
+                  "options": [
+                    "Cascading Style Sheets",
+                    "Creative Style Sheets",
+                    "Computer Style Sheets",
+                    "Cascading System Sheets"
+                  ],
+                  "answer": "Cascading Style Sheets"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "title": "Quiz 4: Machine Learning",
+              "description": "This quiz tests your knowledge of machine learning algorithms and techniques.",
+              "dueDate": "2024-11-15",
+              "status": "completed",
+              "score": 85,
+              "questions": [
+                {
+                  "text": "What is overfitting in machine learning?",
+                  "options": [
+                    "When the model is too simple",
+                    "When the model performs well on the training data but poorly on the test data",
+                    "When the model is too complex",
+                    "When the model performs well on both training and test data"
+                  ],
+                  "answer": "When the model performs well on the training data but poorly on the test data"
+                },
+                {
+                  "text": "Which of the following is a supervised learning algorithm?",
+                  "options": [
+                    "K-means clustering",
+                    "Linear regression",
+                    "Principal component analysis",
+                    "K-nearest neighbors"
+                  ],
+                  "answer": "Linear regression"
+                }
+              ]
+            }
+          ]
+        }
